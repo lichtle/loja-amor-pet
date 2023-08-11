@@ -1,0 +1,17 @@
+.title-and-image {
+  display: flex;
+  align-items: center;
+  width: 350px;
+}
+
+.title-and-image h1 {
+  margin-right: 15px;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+  width: 100%;
+}
