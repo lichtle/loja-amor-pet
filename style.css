@@ -136,8 +136,17 @@ footer .footer-color p {
 }
 
 @media (max-width: 640px) {
-  .title-and-image {
-    width: 150px;
+  #about h2 {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  #about p {
+    text-align: justify;
+  }
+
+  div.title-and-image {
+    width: 70%;
   }
 
   .title-and-image,
@@ -149,10 +158,6 @@ footer .footer-color p {
     width: 100%;
     text-align: center;
     margin-top: 10px;
-  }
-
-  #about h2 {
-    margin: 15px 0;
   }
 
   aside {
