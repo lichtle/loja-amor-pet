@@ -15,28 +15,274 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header id="cabecalho" class="mt-2 mb-2">
+    <header id="cabecalho" class="pt-2 pb-2">
       <div class="container">
         <div class="navbar">
           <div class="title-and-image">
-            <h1>Título do site</h1>
+            <h1>Amor Pet</h1>
             <img src="images/icon.png" alt="Ícone do site" />
           </div>
           <nav>
             <ul class="nav nav-pills">
               <li class="nav-item">
-                <a href="#sobre" class="nav-link active">Sobre</a>
+                <a href="#about" class="nav-link active">Sobre</a>
               </li>
               <li class="nav-item">
-                <a href="#produtos" class="nav-link">Produtos</a>
+                <a href="#products" class="nav-link">Produtos</a>
               </li>
               <li class="nav-item">
-                <a href="#contato" class="nav-link">Contato</a>
+                <a href="#contact" class="nav-link">Contato</a>
               </li>
             </ul>
           </nav>
         </div>
       </div>
     </header>
+    <main>
+      <section id="about">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel-one">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="images/food.jpg" />
+              <div class="carousel-caption">
+                <h2>Alimentos úmidos e rações</h2>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="images/cat.jpg" />
+              <div class="carousel-caption">
+                <h2>Produtos para gatos</h2>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="images/dog.jpg" />
+              <div class="carousel-caption">
+                <h2>Produtos para cachorros</h2>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="images/rodents.jpg" />
+              <div class="carousel-caption">
+                <h2>Produtos para roedores</h2>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="images/products.jpg" />
+              <div class="carousel-caption">
+                <h2>Tudo que seu pet precisa</h2>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            data-bs-target="#carousel-one"
+            data-bs-slide="prev"
+            type="button"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            data-bs-target="#carousel-one"
+            data-bs-slide="next"
+            type="button"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+          <div class="carousel-indicators">
+            <button
+              class="active"
+              data-bs-target="#carousel-one"
+              data-bs-slide-to="0"
+              type="button"
+            ></button>
+            <button
+              data-bs-target="#carousel-one"
+              data-bs-slide-to="1"
+              type="button"
+            ></button>
+            <button
+              data-bs-target="#carousel-one"
+              data-bs-slide-to="2"
+              type="button"
+            ></button>
+            <button
+              data-bs-target="#carousel-one"
+              data-bs-slide-to="3"
+              type="button"
+            ></button>
+            <button
+              data-bs-target="#carousel-one"
+              data-bs-slide-to="4"
+              type="button"
+            ></button>
+          </div>
+        </div>
+      </section>
+      <section id="products" class="mt-4 mb-4">
+        <div class="container">
+          <div class="row mb-4">
+            <h2 class="text-center">Produtos</h2>
+          </div>
+          <div class="row">
+            <aside class="col-2">
+              <nav class="nav nav-pills flex-column">
+                <button
+                  data-bs-toggle="tab"
+                  data-bs-target="#alimentos"
+                  type="button"
+                  class="nav-link fw-bold text-start active"
+                >
+                  Alimentos
+                </button>
+                <button
+                  data-bs-toggle="tab"
+                  data-bs-target="#higiene"
+                  type="button"
+                  class="nav-link fw-bold text-start"
+                >
+                  Higiene</button
+                ><button
+                  data-bs-toggle="tab"
+                  data-bs-target="#brinquedos"
+                  type="button"
+                  class="nav-link fw-bold text-start"
+                >
+                  Brinquedos</button
+                ><button
+                  data-bs-toggle="tab"
+                  data-bs-target="#roupinhas"
+                  type="button"
+                  class="nav-link fw-bold text-start"
+                >
+                  Roupinhas
+                </button>
+              </nav>
+            </aside>
+            <div class="col-10">
+              <div class="tab-content">
+                <div class="tab-pane active" id="alimentos">
+                  <div class="row">
+                    <div class="col-3">
+                      <img
+                        src="images/food.jpg"
+                        alt="Patê para cachorro"
+                        class="d-block w-100"
+                      />
+                      <h3 class="mt-2 mb-2">Patê para cachorro</h3>
+                    </div>
+                    <div class="col-3">
+                      <img
+                        src="images/treat.jpg"
+                        alt="Petisco natural para cães"
+                        class="d-block w-100"
+                      />
+                      <h3 class="mt-2 mb-2">Petisco natural para cães</h3>
+                    </div>
+                    <div class="col-3">
+                      <img
+                        src="https://blog-static.petlove.com.br/wp-content/uploads/2022/11/04163259/racao-para-gatos-petlove1.jpg"
+                        alt="Ração para gatos"
+                        class="d-block w-100"
+                      />
+                      <h3 class="mt-2 mb-2">Ração para gatos</h3>
+                    </div>
+                    <div class="col-3">
+                      <img
+                        src="https://blog-static.petlove.com.br/wp-content/uploads/2019/12/hamster-racao-petlove.jpg"
+                        alt="Ração para roedores"
+                        class="d-block w-100"
+                      />
+                      <h3 class="mt-2 mb-2">Ração para roedores</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane active" id="higiene">
+                  <div class="row">
+                    <div class="col-3">
+                      <img
+                        src="https://blog-static.petlove.com.br/wp-content/uploads/2021/08/filhote-gato-areia-petlove-1.jpg"
+                        alt="Areia higiênica 1,4kg - Gatos"
+                        class="d-block w-100"
+                      />
+                      <h3 class="mt-2 mb-2">Areia higiênica 1,4kg - Gatos</h3>
+                    </div>
+                    <div class="col-3">
+                      <img
+                        src="https://seudireito.proteste.org.br/wp-content/uploads/2021/09/shutterstock_1608181042_cachorro_tapete-scaled.jpg"
+                        alt="Tapete higiênico 15 unidades - Cães"
+                        class="d-block w-100"
+                      />
+                      <h3 class="mt-2 mb-2">
+                        Tapete higiênico 15 unidades - Cães
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane active" id="brinquedos">
+                  <div class="row">
+                    <div class="col-3">
+                      <img
+                        src="https://www.patasdacasa.com.br/sites/patasdacasa/files/inline-images/brinquedo-de-corda-para-cachorro4.jpg"
+                        alt="Brinquedo de corda para cachorro"
+                        class="d-block w-100"
+                      />
+                      <h3 class="mt-2 mb-2">
+                        Brinquedo de corda para cachorro
+                      </h3>
+                    </div>
+                    <div class="col-3">
+                      <img
+                        src="https://blog-static.petlove.com.br/wp-content/uploads/2021/10/brinquedos-barato-gatos-Petlove.jpg"
+                        alt="Bolinha com pena para gatos"
+                        class="d-block w-100"
+                      />
+                      <h3 class="mt-2 mb-2">Bolinha com pena para gatos</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane active" id="roupinhas">
+                  <div class="row">
+                    <div class="col-3">
+                      <img
+                        src="https://blog-static.petlove.com.br/wp-content/uploads/2020/07/gato-roupa-petlove.jpg"
+                        alt="Suéter para gato"
+                        class="d-block w-100"
+                      />
+                      <h3 class="mt-2 mb-2">Suéter para gato</h3>
+                    </div>
+                    <div class="col-3">
+                      <img
+                        src="https://www.dogcare.com.br/fabricas-de-camas-para-cachorros/imagens/roupa-para-cachorro-grande-valores.jpg"
+                        alt="Pijama para cachorro"
+                        class="d-block w-100"
+                      />
+                      <h3 class="mt-2 mb-2">Pijama para cachorro</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- IMAGES:
+    
+    Foto de <a href="https://unsplash.com/pt-br/@sammoghadamkhamseh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sam Moghadam Khamseh</a> na <a href="https://unsplash.com/pt-br/fotografias/NVj9jZH_avA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+    Foto de <a href="https://unsplash.com/pt-br/@bonniekdesign?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bonnie Kittle</a> na <a href="https://unsplash.com/pt-br/fotografias/MUcxe_wDurE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+    Foto de <a href="https://unsplash.com/pt-br/@mattycoulton?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mathew Coulton</a> na <a href="https://unsplash.com/pt-br/fotografias/q9iyCG7FRmQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+    Foto de <a href="https://unsplash.com/pt-br/@flowerchildkimmi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kim Davies</a> na <a href="https://unsplash.com/pt-br/fotografias/fEK4jvgnApg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+    Foto de <a href="https://unsplash.com/pt-br/@jamie452?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jamie Street</a> na <a href="https://unsplash.com/pt-br/fotografias/s9Tf1eBDFqw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+    Foto de <a href="https://unsplash.com/pt-br/@okeykat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">okeykat</a> na <a href="https://unsplash.com/pt-br/fotografias/w6elADh_jww?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
