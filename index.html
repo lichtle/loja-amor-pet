@@ -25,13 +25,21 @@
       data-bs-smooth-scroll="true"
     >
       <div class="container">
-        <div class="navbar">
+        <div class="navbar navbar-expand-lg">
           <div class="title-and-image">
             <h1>Amor Pet</h1>
             <img src="images/icon.png" alt="Ícone do site" />
           </div>
-          <nav>
-            <ul class="nav nav-pills">
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <nav id="menu" class="collapse navbar-collapse justify-content-end">
+            <ul class="nav nav-pills navbar-nav d-block d-lg-flex">
               <li class="nav-item">
                 <a href="#about" class="nav-link active">Sobre</a>
               </li>
@@ -164,7 +172,7 @@
               <h2 class="text-center">Produtos</h2>
             </div>
             <div class="row">
-              <aside class="col-2">
+              <aside class="col-lg-2 col-md-3 col-sm-12">
                 <nav class="nav nav-pills flex-column">
                   <button
                     data-bs-toggle="tab"
@@ -198,106 +206,104 @@
                   </button>
                 </nav>
               </aside>
-              <div class="col-10">
-                <div class="tab-content">
-                  <div class="tab-pane active" id="alimentos">
-                    <div class="row">
-                      <div class="col-3">
-                        <img
-                          src="images/food.jpg"
-                          alt="Patê para cachorro"
-                          class="d-block w-100"
-                        />
-                        <h3 class="mt-2 mb-2">Patê para cachorro</h3>
-                      </div>
-                      <div class="col-3">
-                        <img
-                          src="images/treat.jpg"
-                          alt="Petisco natural para cães"
-                          class="d-block w-100"
-                        />
-                        <h3 class="mt-2 mb-2">Petisco natural para cães</h3>
-                      </div>
-                      <div class="col-3">
-                        <img
-                          src="https://blog-static.petlove.com.br/wp-content/uploads/2022/11/04163259/racao-para-gatos-petlove1.jpg"
-                          alt="Ração para gatos"
-                          class="d-block w-100"
-                        />
-                        <h3 class="mt-2 mb-2">Ração para gatos</h3>
-                      </div>
-                      <div class="col-3">
-                        <img
-                          src="https://blog-static.petlove.com.br/wp-content/uploads/2019/12/hamster-racao-petlove.jpg"
-                          alt="Ração para roedores"
-                          class="d-block w-100"
-                        />
-                        <h3 class="mt-2 mb-2">Ração para roedores</h3>
-                      </div>
+              <div class="tab-content col-lg-10 col-md-9 col-sm-12">
+                <div class="tab-pane active" id="alimentos">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                      <img
+                        src="images/food.jpg"
+                        alt="Patê para cachorro"
+                        class="d-block w-100"
+                      />
+                      <h3 class="mt-2 mb-2">Patê para cachorro</h3>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <img
+                        src="images/treat.jpg"
+                        alt="Petisco natural para cães"
+                        class="d-block w-100"
+                      />
+                      <h3 class="mt-2 mb-2">Petisco natural para cães</h3>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <img
+                        src="https://blog-static.petlove.com.br/wp-content/uploads/2022/11/04163259/racao-para-gatos-petlove1.jpg"
+                        alt="Ração para gatos"
+                        class="d-block w-100"
+                      />
+                      <h3 class="mt-2 mb-2">Ração para gatos</h3>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <img
+                        src="https://blog-static.petlove.com.br/wp-content/uploads/2019/12/hamster-racao-petlove.jpg"
+                        alt="Ração para roedores"
+                        class="d-block w-100"
+                      />
+                      <h3 class="mt-2 mb-2">Ração para roedores</h3>
                     </div>
                   </div>
-                  <div class="tab-pane active" id="higiene">
-                    <div class="row">
-                      <div class="col-3">
-                        <img
-                          src="https://blog-static.petlove.com.br/wp-content/uploads/2021/08/filhote-gato-areia-petlove-1.jpg"
-                          alt="Areia higiênica 1,4kg - Gatos"
-                          class="d-block w-100"
-                        />
-                        <h3 class="mt-2 mb-2">Areia higiênica 1,4kg - Gatos</h3>
-                      </div>
-                      <div class="col-3">
-                        <img
-                          src="https://seudireito.proteste.org.br/wp-content/uploads/2021/09/shutterstock_1608181042_cachorro_tapete-scaled.jpg"
-                          alt="Tapete higiênico 15 unidades - Cães"
-                          class="d-block w-100"
-                        />
-                        <h3 class="mt-2 mb-2">
-                          Tapete higiênico 15 unidades - Cães
-                        </h3>
-                      </div>
+                </div>
+                <div class="tab-pane" id="higiene">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                      <img
+                        src="https://blog-static.petlove.com.br/wp-content/uploads/2021/08/filhote-gato-areia-petlove-1.jpg"
+                        alt="Areia higiênica 1,4kg - Gatos"
+                        class="d-block w-100"
+                      />
+                      <h3 class="mt-2 mb-2">Areia higiênica 1,4kg - Gatos</h3>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <img
+                        src="https://seudireito.proteste.org.br/wp-content/uploads/2021/09/shutterstock_1608181042_cachorro_tapete-scaled.jpg"
+                        alt="Tapete higiênico 15 unidades - Cães"
+                        class="d-block w-100"
+                      />
+                      <h3 class="mt-2 mb-2">
+                        Tapete higiênico 15 unidades - Cães
+                      </h3>
                     </div>
                   </div>
-                  <div class="tab-pane active" id="brinquedos">
-                    <div class="row">
-                      <div class="col-3">
-                        <img
-                          src="https://www.patasdacasa.com.br/sites/patasdacasa/files/inline-images/brinquedo-de-corda-para-cachorro4.jpg"
-                          alt="Brinquedo de corda para cachorro"
-                          class="d-block w-100"
-                        />
-                        <h3 class="mt-2 mb-2">
-                          Brinquedo de corda para cachorro
-                        </h3>
-                      </div>
-                      <div class="col-3">
-                        <img
-                          src="https://blog-static.petlove.com.br/wp-content/uploads/2021/10/brinquedos-barato-gatos-Petlove.jpg"
-                          alt="Bolinha com pena para gatos"
-                          class="d-block w-100"
-                        />
-                        <h3 class="mt-2 mb-2">Bolinha com pena para gatos</h3>
-                      </div>
+                </div>
+                <div class="tab-pane" id="brinquedos">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                      <img
+                        src="https://www.patasdacasa.com.br/sites/patasdacasa/files/inline-images/brinquedo-de-corda-para-cachorro4.jpg"
+                        alt="Brinquedo de corda para cachorro"
+                        class="d-block w-100"
+                      />
+                      <h3 class="mt-2 mb-2">
+                        Brinquedo de corda para cachorro
+                      </h3>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <img
+                        src="https://blog-static.petlove.com.br/wp-content/uploads/2021/10/brinquedos-barato-gatos-Petlove.jpg"
+                        alt="Bolinha com pena para gatos"
+                        class="d-block w-100"
+                      />
+                      <h3 class="mt-2 mb-2">Bolinha com pena para gatos</h3>
                     </div>
                   </div>
-                  <div class="tab-pane active" id="roupinhas">
-                    <div class="row">
-                      <div class="col-3">
-                        <img
-                          src="https://blog-static.petlove.com.br/wp-content/uploads/2020/07/gato-roupa-petlove.jpg"
-                          alt="Suéter para gato"
-                          class="d-block w-100"
-                        />
-                        <h3 class="mt-2 mb-2">Suéter para gato</h3>
-                      </div>
-                      <div class="col-3">
-                        <img
-                          src="https://www.dogcare.com.br/fabricas-de-camas-para-cachorros/imagens/roupa-para-cachorro-grande-valores.jpg"
-                          alt="Pijama para cachorro"
-                          class="d-block w-100"
-                        />
-                        <h3 class="mt-2 mb-2">Pijama para cachorro</h3>
-                      </div>
+                </div>
+                <div class="tab-pane" id="roupinhas">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                      <img
+                        src="https://blog-static.petlove.com.br/wp-content/uploads/2020/07/gato-roupa-petlove.jpg"
+                        alt="Suéter para gato"
+                        class="d-block w-100"
+                      />
+                      <h3 class="mt-2 mb-2">Suéter para gato</h3>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                      <img
+                        src="https://www.dogcare.com.br/fabricas-de-camas-para-cachorros/imagens/roupa-para-cachorro-grande-valores.jpg"
+                        alt="Pijama para cachorro"
+                        class="d-block w-100"
+                      />
+                      <h3 class="mt-2 mb-2">Pijama para cachorro</h3>
                     </div>
                   </div>
                 </div>
