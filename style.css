@@ -13,6 +13,10 @@ button.btn.fw-bold {
 
 /* OTHERS */
 
+header h1 {
+  font-family: "Leckerli One", cursive;
+}
+
 .navbar-nav .nav-link {
   margin: 0 5px;
 }
