@@ -2,7 +2,9 @@
 
 Este projeto foi realizado durante o curso Engenheiro Front-End, da EBAC. 💖
 
-Deploy: https://tinyurl.com/amor-pet
+[Link do projeto](https://tinyurl.com/amor-pet)
+
+<img src="https://i.ibb.co/G00bv7k/amor-pet.png" alt="Imagem do projeto" width="800"/>
 
 ## Tecnologias utilizadas
 
