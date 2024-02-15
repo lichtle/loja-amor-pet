@@ -1,4 +1,4 @@
-# Projeto Loja Amor Pet
+# Loja Amor Pet
 
 Este projeto foi realizado durante o curso Engenheiro Front-End, da EBAC. 💖
 
